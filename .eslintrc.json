@@ -1,0 +1,31 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jquery": true,
+    "commonjs": true
+  },
+  "extends": ["eslint:recommended", "plugin:jsdoc/recommended"],
+  "globals": {
+    "cy": true
+  },
+  "rules": {
+    "no-class-assign": "off",
+    "import/no-named-as-default": "off",
+    "no-console": "off",
+    "no-unused-vars": "warn",
+    "jsdoc/require-returns-description": "off",
+    "jsdoc/require-param-description": "off",
+    "jsdoc/require-property-description": "off",
+    "require-jsdoc" : 0
+  },
+  "plugins": [],
+  "settings": {
+    "jsdoc": {
+      "tagNamePreference": {
+        "returns": "return"
+      }
+    }
+  }
+}
