@@ -1,3 +1,46 @@
+5 Minds
+===============
+
+Este é um projeto que usa Yarn e Gulp para gerenciar dependências e automatizar tarefas.
+
+Requisitos
+----------
+
+Antes de começar, você precisa ter o Node.js e o Yarn instalados em seu computador. Você pode baixar o Node.js em [nodejs.org](https://nodejs.org/) e instalar o Yarn seguindo as instruções em [yarnpkg.com](https://yarnpkg.com/).
+
+Instalação
+----------
+
+Para instalar as dependências do projeto, execute o seguinte comando no terminal:
+
+bashCopy code
+
+`yarn install`
+
+Isso instalará todas as dependências necessárias para o projeto.
+
+Executando o projeto
+--------------------
+
+Para executar o projeto, você pode usar o Gulp para construir e servir o site em um servidor local. Para fazer isso, execute o seguinte comando no terminal:
+
+bashCopy code
+
+`gulp`
+
+Isso iniciará o servidor local e abrirá o site em seu navegador padrão. Qualquer alteração que você fizer no código será automaticamente atualizada no navegador.
+
+Tarefas do Gulp disponíveis
+---------------------------
+
+*   `gulp`: Inicia as tarefas de automatização.
+*   `gulp build`: Compila o código do projeto para a pasta "build/".
+
+Conclusão
+---------
+
+Espero que este arquivo README ajude você a executar e desenvolver o projeto usando Yarn e Gulp. Sinta-se à vontade para personalizar ou adicionar mais tarefas do Gulp conforme necessário. Se você tiver alguma dúvida ou precisar de ajuda, não hesite em entrar em contato comigo. Obrigado por usar este projeto!
+
 - __template\-default__
    - [build.sh](build.sh)
    - [codiga.yml](codiga.yml)

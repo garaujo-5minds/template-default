@@ -18,11 +18,6 @@
     "gulp": "gulp",
     "gulp:production": "gulp production"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run validate"
-    }
-  },
   "dependencies": {
     "ansi-colors": "^4.1.1",
     "assets": "^3.0.1",
